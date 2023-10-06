@@ -27,7 +27,7 @@ class BankAccount{
         this.saldo += +tambah
         let sementara = this.saldo
         setTimeout(() => {
-            alert(`Deposit ${+tambah} berhasil. Saldo sekarang: ${sementara}`);
+            alert(`Deposit ${+tambah} berhasil. Saldo menjadi: ${sementara}`);
         }, 5000); 
 
 
@@ -58,7 +58,7 @@ class BankAccount{
         this.saldo -= +kurang
         let sementara = this.saldo
         setTimeout(() => {
-            alert(`Withdraw ${+kurang} berhasil. Saldo sekarang: ${sementara}`);
+            alert(`Withdraw ${+kurang} berhasil. Saldo menjadi: ${sementara}`);
         }, 5000); 
     }
 }
